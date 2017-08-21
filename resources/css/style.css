@@ -131,29 +131,26 @@ p{
   margin-bottom: 2rem;
 }
 
-.start-btn{
+button{
   background-color: rgb(200,200,200);
   padding: 0.5rem 0;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
   transition: all 700ms ease-in;
-}
-
-.start-btn a{
   color: black;
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
 }
 
-.start-btn:hover{
+button:hover{
   background-color: rgb(100,100,100);
   color: white;
   border-radius: 50px;
 }
 
-.start-btn a:hover{
+.jumbotron-text-container a:hover{
   color: white;
 }
 
