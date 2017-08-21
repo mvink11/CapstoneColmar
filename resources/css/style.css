@@ -283,7 +283,7 @@ h3{
 .campus-menu-2:hover,
 .campus-menu-3:hover{
   background-color: rgba(220,220,220,0.5);
-  border: 1px solid rgb(75,75,75);
+  outline: 1px solid rgb(75,75,75);
 }
 
 .campus-menu-1-text a:hover,
@@ -313,13 +313,22 @@ h3{
 .title{
   width: 100%;
   text-align: center;
+  margin-top: 1rem;
+}
+
+.course-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem 4.5rem;
 }
 
 .courses-block{
   display: flex;
   width: 30%;
   flex-direction: column;
-  margin: 1rem 1rem 1.5rem 1rem;
+  margin: 1rem;
 }
 
 .courses img{
@@ -378,7 +387,7 @@ h3{
 .thesis-menu-1:hover,
 .thesis-menu-2:hover{
   background-color: rgba(220,220,220,0.5);
-  border: 1px solid rgb(75,75,75);
+  outline: 1px solid rgb(75,75,75);
 }
 
 .thesis-menu-1-img,
