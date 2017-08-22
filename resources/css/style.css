@@ -136,18 +136,18 @@ button{
   padding: 0.5rem 0;
   text-align: center;
   width: 100%;
-  border-radius: 10px;
-  transition: all 700ms ease-in;
+  border-radius: 50px;
+  transition: all 300ms ease-in;
   color: black;
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
+  border: none;
 }
 
 button:hover{
   background-color: rgb(100,100,100);
   color: white;
-  border-radius: 50px;
 }
 
 .jumbotron-text-container a:hover{
@@ -170,7 +170,7 @@ button:hover{
 
 .campus-main-img{
   background-image: url(../images/information-main.jpg);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 26rem;
   margin: 2rem 1.5rem 0 1.5rem;
@@ -220,10 +220,6 @@ img.mobile-img{
   height: auto;
   padding: 1rem 1rem;
   background-color: white;
-}
-
-.campus-menu-2{
-  border-top: 3px solid rgb(75,75,75);
 }
 
 .campus-menu-3{
